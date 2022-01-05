@@ -1,0 +1,49 @@
+* {
+    background-color: yellow;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+h1 {
+    
+    background-color: rgb(248, 248, 68);
+}
+
+h2 {
+    text-align: center;
+    background-color: aliceblue;
+    width: 20%;
+
+}
+
+h3 {
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    padding: 50px;
+   
+}
+#box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*moves box content to the center*/
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    opacity: 100%;
+    border-radius: 5%;
+   
+}
+
+#rl-desc, #rl-desc strong {
+    background-color: rgb(255, 255, 255);
+}
+
+#rl-desc i {
+    background-color: aqua;
+}
